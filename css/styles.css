@@ -127,7 +127,10 @@ body {
 		margin-bottom: 1em;
 		box-sizing: border-box;
 	}
+		/*STEP 1: Initially, the Tweet button and the character 
+		count button below should be hidden.*/
 		#tweet-controls {
+			display:none;
 			text-align: right;
 		}
 			#tweet-controls div {
@@ -146,6 +149,9 @@ body {
 	border-bottom: 1px solid #e8e8e8;
 	min-height: 60px;
 	border-radius: 6px;
+}
+.tweet:hover {
+	background-color: #F5F8FA;
 }
 
 	.tweet .avatar {
@@ -167,6 +173,7 @@ body {
 	}
 
 	.tweet-actions {
+		display: none;
 		text-align: right;
 	}
 		.tweet-actions ul {
@@ -209,6 +216,7 @@ body {
 	}
 
 	.stats {
+		display: none;
 		margin: 12px 0 12px 42px;
 		border-top: 1px solid #e8e8e8;
 	}
